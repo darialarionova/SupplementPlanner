@@ -1,0 +1,102 @@
+<Supplements>
+	<Supplement Type="Vitamin" Notation="A">
+		<NameRussian>Ретинол</NameRussian>
+		<NameEnglish>Retinol</NameEnglish>
+		<Solvent>Fat</Solvent>
+	</Supplement>
+	<Supplement Type="Vitamin" Notation="B1">
+		<NameRussian>Тиамин</NameRussian>
+		<NameEnglish>Tiamin</NameEnglish>
+		<Solvent>Water</Solvent>
+	</Supplement>
+	<Supplement Type="Vitamin" Notation="B2">
+		<NameRussian>Рибофлавин</NameRussian>
+		<NameEnglish>Riboflavin</NameEnglish>
+		<Solvent>Water</Solvent>
+	</Supplement>
+	<Supplement Type="Vitamin" Notation="B3">
+		<NameRussian>Никотиновая кислота</NameRussian>
+		<NameEnglish>Niacin</NameEnglish>
+		<Solvent>Water</Solvent>
+	</Supplement>
+	<Supplement Type="Vitamin-Like Substance" Notation="B4">
+		<NameRussian>Холин</NameRussian>
+		<NameEnglish>Holin</NameEnglish>
+		<Solvent>Water</Solvent>
+	</Supplement>
+	<Supplement Type="Vitamin" Notation="B5">
+		<NameRussian>Пантотеновая кислота</NameRussian>
+		<NameEnglish>Pantothenic acid</NameEnglish>
+		<Solvent>Water</Solvent>
+	</Supplement>
+	<Supplement Type="Vitamin" Notation="B6">
+		<NameRussian>Пиридоксин</NameRussian>
+		<NameEnglish>Pyridoxine</NameEnglish>
+		<Solvent>Water</Solvent>
+	</Supplement>
+	<Supplement Type="Vitamin" Notation="B7">
+		<NameRussian>Биотин</NameRussian>
+		<NameEnglish>Biotin</NameEnglish>
+		<Solvent>Water</Solvent>
+	</Supplement>
+	<Supplement Type="Vitamin" Notation="B8">
+		<NameRussian>Инозитол</NameRussian>
+		<NameEnglish>Inositol</NameEnglish>
+		<Solvent>Water</Solvent>
+	</Supplement>
+	<Supplement Type="Vitamin" Notation="B9">
+		<NameRussian>Фолиевая кислота</NameRussian>
+		<NameEnglish>Folic acid</NameEnglish>
+		<Solvent>Water</Solvent>
+	</Supplement>
+	<Supplement Type="Vitamin-Like Substance" Notation="B10">
+		<NameRussian>Парааминобензойная кислота</NameRussian>
+		<NameEnglish>Para-aminobenzoic acid</NameEnglish>
+		<Solvent>Water</Solvent>
+	</Supplement>
+	<Supplement Type="Vitamin-Like Substance" Notation="B11">
+		<NameRussian>Левокарнитин</NameRussian>
+		<NameEnglish>Levocarnitine</NameEnglish>
+		<Solvent>Water</Solvent>
+	</Supplement>
+  <Supplement Type="Vitamin" Notation="B12">
+    <NameRussian>Цианокобаламин</NameRussian>
+    <NameEnglish>Cobalamin</NameEnglish>
+    <Solvent>Water</Solvent>
+  </Supplement>
+  <Supplement Type="Vitamin-Like Substance" Notation="B13">
+    <NameRussian>Оротовая кислота</NameRussian>
+    <NameEnglish>Orortic acid</NameEnglish>
+    <Solvent>Water</Solvent>
+  </Supplement>
+  <Supplement Type="Vitamin-Like Substance" Notation="B15">
+    <NameRussian>Пангамовая кислота</NameRussian>
+    <NameEnglish>Pangamic acid</NameEnglish>
+    <Solvent>Water</Solvent>
+  </Supplement>
+  <Supplement Type="Vitamin" Notation="C">
+    <NameRussian>Аскорбиновая кислота</NameRussian>
+    <NameEnglish>Ascorbic acid</NameEnglish>
+    <Solvent>Water</Solvent>
+  </Supplement>
+  <Supplement Type="Vitamin" Notation="D1">
+    <NameRussian>Эргокальциферол</NameRussian>
+    <NameEnglish>Ergocalciferol</NameEnglish>
+    <Solvent>Fat</Solvent>
+  </Supplement>
+  <Supplement Type="Vitamin" Notation="D3">
+    <NameRussian>Холекальциферол</NameRussian>
+    <NameEnglish>Cholecalciferol</NameEnglish>
+    <Solvent>Fat</Solvent>
+  </Supplement>vitq
+  <Supplement Type="Vitamin" Notation="E">
+    <NameRussian>Токоферол</NameRussian>
+    <NameEnglish>Tocopherol</NameEnglish>
+    <Solvent>Fat</Solvent>
+  </Supplement>
+  <Supplement Type="Vitamin" Notation="K">
+    <NameRussian>Филлохинон</NameRussian>
+    <NameEnglish>Phylloquinone</NameEnglish>
+    <Solvent>Fat</Solvent>
+  </Supplement>
+</Supplements>

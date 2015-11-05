@@ -1,0 +1,11 @@
+﻿<Supplements>
+  <Supplement Notation="A">
+    <Compatible>C</Compatible>
+    <Compatible>E</Compatible>
+    <Uncompatible>R</Uncompatible>
+  </Supplement>
+  <Supplement Notation="B1">
+    <Compatible>D</Compatible>
+    <Compatible>PP</Compatible>
+  </Supplement>
+</Supplements>
