@@ -8,13 +8,7 @@ namespace SupplementsPlanner.Repository
     {
         private const string ConnectionString = @"Data Source=(local);Initial Catalog=SupplementsPlanner;Persist Security Info=True;User ID=SupplementsPlanner;Password=123456789";
 
-        //public Supplement[,] GetCompatibilityInformation()
-        //{
-        //    //  return compabilityMatrix;
-        //}
-
-        //todo: use setting by one query
-        public void SetSupplementsRelation(Supplement first, Supplement second, string relationType)
+        public void SetSupplementsRelation(SupplementsRelation supplements)
         {
             using (var connection = new SqlConnection(ConnectionString))
             {
@@ -27,30 +21,29 @@ namespace SupplementsPlanner.Repository
 
                     command.Parameters.Add(new SqlParameter
                     {
-                        ParameterName = "@FirstSupplementId",
-                        SqlDbType = SqlDbType.Int,
+                        ParameterName = "@FirstSupplementNotation",
+                        SqlDbType = SqlDbType.NVarChar,
                         Direction = ParameterDirection.Input,
-                        Value = first.Id
+                        Value = supplements.First
                     });
                     command.Parameters.Add(new SqlParameter
                     {
-                        ParameterName = "@SecondSupplementId",
-                        SqlDbType = SqlDbType.Int,
+                        ParameterName = "@SecondSupplementNotation",
+                        SqlDbType = SqlDbType.NVarChar,
                         Direction = ParameterDirection.Input,
-                        Value = second.Id
+                        Value = supplements.Second
                     });
                     command.Parameters.Add(new SqlParameter
                     {
                         ParameterName = "@RelationType",
                         SqlDbType = SqlDbType.NVarChar,
                         Direction = ParameterDirection.Input,
-                        Value = relationType
+                        Value = supplements.RelationType
                     });
 
                     command.ExecuteNonQuery();
                 }
             }
         }
-        
     }
 }

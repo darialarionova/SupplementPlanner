@@ -2,10 +2,50 @@
   <Supplement Notation="A">
     <Compatible>C</Compatible>
     <Compatible>E</Compatible>
-    <Uncompatible>R</Uncompatible>
+    <Compatible>B7</Compatible>
   </Supplement>
   <Supplement Notation="B1">
-    <Compatible>D</Compatible>
-    <Compatible>PP</Compatible>
+    <Compatible>B5</Compatible>
+  </Supplement>
+  <Supplement Notation="B2">
+    <Compatible>B3</Compatible>
+    <Compatible>B5</Compatible>
+    <Compatible>B6</Compatible>
+    <Compatible>B7</Compatible>
+    <Compatible>B9</Compatible>
+    <Compatible>K</Compatible>
+  </Supplement>
+  <Supplement Notation="B3">
+    <Compatible>B6</Compatible>
+    <Compatible>B7</Compatible>
+  </Supplement>
+  <Supplement Notation="B4">
+    <Compatible>B5</Compatible>
+    <Compatible>B8</Compatible>
+    <Compatible>B9</Compatible>
+    <Compatible>B12</Compatible>
+    <Compatible>E</Compatible>
+  </Supplement>
+  <Supplement Notation="B5">
+    <Compatible>B9</Compatible>
+    <Compatible>B10</Compatible>
+    <Compatible>B12</Compatible>
+    <Compatible>C</Compatible>
+  </Supplement>
+  <Supplement Notation="B6">
+    <Compatible>B7</Compatible>
+  </Supplement>
+  <Supplement Notation="B8">
+    <Compatible>E</Compatible>
+  </Supplement>
+  <Supplement Notation="B9">
+    <Compatible>B10</Compatible>
+    <Compatible>B12</Compatible>
+    <Compatible>C</Compatible>
+  </Supplement>
+  <Supplement Notation="B11">
+    <Compatible>B10</Compatible>
+    <Compatible>B12</Compatible>
+    <Compatible>C</Compatible>
   </Supplement>
 </Supplements>
