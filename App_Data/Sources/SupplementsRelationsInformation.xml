@@ -1,0 +1,63 @@
+﻿<Supplements>
+  <Supplement Notation="A">
+    <Compatible Type="Vitamin">C</Compatible>
+    <Compatible Type="Vitamin">E</Compatible>
+    <Compatible Type="Vitamin">B7</Compatible>
+	<Compatible Type="Mineral">Zn</Compatible>
+	<Compatible Type="Mineral">Fe</Compatible>
+  </Supplement>
+  <Supplement Notation="B1">
+    <Compatible Type="Vitamin">B5</Compatible>
+	<Incompatible Type="Vitamin">B2</Incompatible>
+	<Incompatible Type="Vitamin">B6</Incompatible>
+	<Incompatible Type="Vitamin">B3</Incompatible>
+	<Incompatible Type="Mineral">Mg</Incompatible>
+	<Incompatible Type="Mineral">Ca</Incompatible>
+	</Supplement>
+  <Supplement Notation="B2">
+    <Compatible Type="Vitamin">B3</Compatible>
+    <Compatible Type="Vitamin">B5</Compatible>
+    <Compatible Type="Vitamin">B6</Compatible>
+    <Compatible Type="Vitamin">B7</Compatible>
+    <Compatible Type="Vitamin">B9</Compatible>
+    <Compatible Type="Vitamin">K</Compatible>
+	<Compatible Type="Mineral">Zn</Compatible>
+  </Supplement>
+  <Supplement Notation="B3">
+    <Compatible Type="Vitamin">B6</Compatible>
+    <Compatible Type="Vitamin">B7</Compatible>
+	<Compatible Type="Mineral">Cu</Compatible>
+	<Compatible Type="Mineral">Fe</Compatible>
+  </Supplement>
+  <Supplement Notation="B4">
+    <Compatible Type="Vitamin">B5</Compatible>
+    <Compatible Type="Vitamin">B9</Compatible>
+    <Compatible Type="Vitamin">B12</Compatible>
+    <Compatible Type="Vitamin">E</Compatible>
+  </Supplement>
+  <Supplement Notation="B5">
+    <Compatible Type="Vitamin">B9</Compatible>
+    <Compatible Type="Vitamin">B12</Compatible>
+    <Compatible Type="Vitamin">C</Compatible>
+  </Supplement>
+  <Supplement Notation="B6">
+    <Compatible Type="Vitamin">B7</Compatible>
+	<Compatible Type="Mineral">Cu</Compatible>
+	<Compatible Type="Mineral">Zn</Compatible>
+  </Supplement>
+  <Supplement Notation="B9">
+    <Compatible Type="Vitamin">B12</Compatible>
+    <Compatible Type="Vitamin">C</Compatible>
+  </Supplement>
+  <Supplement Notation="B12">
+    <Compatible Type="Mineral">Ca</Compatible>
+  </Supplement>
+  <Supplement Notation="D">
+    <Compatible Type="Mineral">Ca</Compatible>
+	<Compatible Type="Mineral">P</Compatible>
+  </Supplement>
+  <Supplement Notation="E">
+    <Compatible Type="Mineral">Se</Compatible>
+	<Compatible Type="Vitamin">C</Compatible>
+  </Supplement>
+</Supplements>

@@ -1,0 +1,100 @@
+.grid-cell, .grid-cell-red, .grid-cell-green, .grid-cell-current {
+    background: darkgray;
+    background: transparent linear-gradient(150deg, #FBF4F4 0px, #E7E3E3 3%, #A5A5A5 100%) repeat scroll 50% 50%;
+    color: white;
+    cursor: pointer;
+    float: left;
+    text-align: center;
+}
+.grid-cell-text {
+    color: inherit;
+    font-size: 20px;
+    font-weight: bold;
+    line-height: 20px;
+    margin: -9px;
+    position: relative;
+}
+
+.vitamins-grid, .minerals-grid {
+    background-image: url("../Images/foil-texture.jpg");
+    border-radius: 30px;
+    display: table;
+    margin: 27px 85px 27px 85px;
+    padding: 10px 20px;
+    width: 617px;
+}
+
+.vitamins-grid .grid-cell, .vitamins-grid .grid-cell-red, .vitamins-grid .grid-cell-green, .vitamins-grid .grid-cell-current {
+    border-radius: 30px;
+    margin: 30px 14px;
+    padding: 20px;
+    width: 20px;
+}
+
+.vitamins-grid .grid-cell-red {
+    background: red;
+    background: transparent linear-gradient(150deg, #FFF80E 2px, #FFAE87 3%, #940B0B 100%) repeat scroll 50% 50%;
+}
+
+.vitamins-grid .grid-cell-green {
+    background: green;
+    background: transparent linear-gradient(150deg, #F1FCE6 0px, rgb(197, 243, 56) 3%, #4A674A 100%) repeat scroll 50% 50%;
+}
+
+.vitamins-grid .grid-cell-current {
+    background: transparent linear-gradient(150deg, #FBF4F4 0px, #b8b4b4 3%, #545050 100%) repeat scroll 50% 50%;
+    color: black;
+}
+
+.minerals-grid {
+    padding: 20px 20px;
+    width: 617px;
+}
+
+.minerals-grid .grid-cell, .minerals-grid .grid-cell-red, .minerals-grid .grid-cell-green, .minerals-grid .grid-cell-current {
+    border-radius: 28px;
+    height: 18px;
+    margin: 30px 9px;
+    padding: 20px;
+    width: 18px;
+}
+.minerals-grid .grid-cell-red {
+    background: red;
+    background: transparent linear-gradient(150deg, #FFF80E 2px, #FFAE87 3%, #940B0B 100%) repeat scroll 50% 50%;
+}
+
+.minerals-grid .grid-cell-green {
+    background: green;
+    background: transparent linear-gradient(150deg, #F1FCE6 0px, rgb(197, 243, 56) 3%, #4A674A 100%) repeat scroll 50% 50%;
+}
+
+.minerals-grid .grid-cell-current {
+    background: transparent linear-gradient(150deg, #FBF4F4 0px, #b8b4b4 3%, #545050 100%) repeat scroll 50% 50%;
+    color: black;
+}
+.minerals-grid .grid-cell .grid-cell-text {
+    font-size: 18px;
+    font-weight: bold;
+}
+
+/* Hover Bounce In */
+
+.hover-bounce-in {
+    -moz-osx-font-smoothing: grayscale;
+    -webkit-backface-visibility: hidden;
+    -webkit-transform: translateZ(0);
+    -webkit-transition-duration: 0.15s;
+    backface-visibility: hidden;
+    box-shadow: 0 0 1px rgba(0, 0, 0, 0);
+    display: inline-block;
+    transform: translateZ(0);
+    transition-duration: 0.15s;
+    vertical-align: middle;
+}
+
+.hover-bounce-in:hover, .hover-bounce-in:focus, .hover-bounce-in:active {
+    -webkit-transform: scale(1.2);
+    -webkit-transition-timing-function: cubic-bezier(0.9, 0, 0, -0.1);
+    transform: scale(1.2);
+    transition-timing-function: cubic-bezier(0.9, 0, 0, -0.1);
+}

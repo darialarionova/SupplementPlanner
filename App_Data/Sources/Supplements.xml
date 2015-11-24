@@ -1,0 +1,136 @@
+<Supplements>
+	<Supplement Type="Vitamin" Notation="A">
+		<FullNameRussian>Ретинол</FullNameRussian>
+		<FullNameEnglish>Retinol</FullNameEnglish>
+		<Solvent>Fat</Solvent>
+	</Supplement>
+	<Supplement Type="Vitamin" Notation="B1">
+		<FullNameRussian>Тиамин</FullNameRussian>
+		<FullNameEnglish>Tiamin</FullNameEnglish>
+		<Solvent>Water</Solvent>
+	</Supplement>
+	<Supplement Type="Vitamin" Notation="B2">
+		<FullNameRussian>Рибофлавин</FullNameRussian>
+		<FullNameEnglish>Riboflavin</FullNameEnglish>
+		<Solvent>Water</Solvent>
+	</Supplement>
+	<Supplement Type="Vitamin" Notation="B3">
+		<FullNameRussian>Никотиновая кислота</FullNameRussian>
+		<FullNameEnglish>Niacin</FullNameEnglish>
+		<Solvent>Water</Solvent>
+	</Supplement>
+	<Supplement Type="Vitamin" Notation="B4">
+		<FullNameRussian>Холин</FullNameRussian>
+		<FullNameEnglish>Holin</FullNameEnglish>
+		<Solvent>Water</Solvent>
+	</Supplement>
+	<Supplement Type="Vitamin" Notation="B5">
+		<FullNameRussian>Пантотеновая кислота</FullNameRussian>
+		<FullNameEnglish>Pantothenic acid</FullNameEnglish>
+		<Solvent>Water</Solvent>
+	</Supplement>
+	<Supplement Type="Vitamin" Notation="B6">
+		<FullNameRussian>Пиридоксин</FullNameRussian>
+		<FullNameEnglish>Pyridoxine</FullNameEnglish>
+		<Solvent>Water</Solvent>
+	</Supplement>
+	<Supplement Type="Vitamin" Notation="B7">
+		<FullNameRussian>Биотин</FullNameRussian>
+		<FullNameEnglish>Biotin</FullNameEnglish>
+		<Solvent>Water</Solvent>
+	</Supplement>
+	<Supplement Type="Vitamin" Notation="B9">
+		<FullNameRussian>Фолиевая кислота</FullNameRussian>
+		<FullNameEnglish>Folic acid</FullNameEnglish>
+		<Solvent>Water</Solvent>
+	</Supplement>
+  <Supplement Type="Vitamin" Notation="B12">
+    <FullNameRussian>Цианокобаламин</FullNameRussian>
+    <FullNameEnglish>Cobalamin</FullNameEnglish>
+    <Solvent>Water</Solvent>
+  </Supplement>
+  <Supplement Type="Vitamin" Notation="C">
+    <FullNameRussian>Аскорбиновая кислота</FullNameRussian>
+    <FullNameEnglish>Ascorbic acid</FullNameEnglish>
+    <Solvent>Water</Solvent>
+  </Supplement>
+  <Supplement Type="Vitamin" Notation="D">
+    <FullNameRussian>Холекальциферол</FullNameRussian>
+    <FullNameEnglish>Cholecalciferol</FullNameEnglish>
+    <Solvent>Fat</Solvent>
+  </Supplement>
+  <Supplement Type="Vitamin" Notation="E">
+    <FullNameRussian>Токоферол</FullNameRussian>
+    <FullNameEnglish>Tocopherol</FullNameEnglish>
+    <Solvent>Fat</Solvent>
+  </Supplement>
+  <Supplement Type="Vitamin" Notation="K">
+    <FullNameRussian>Филлохинон</FullNameRussian>
+    <FullNameEnglish>Phylloquinone</FullNameEnglish>
+    <Solvent>Fat</Solvent>
+  </Supplement>
+  <Supplement Type="Mineral" Notation="Ca">
+	<FullNameRussian>Кальций</FullNameRussian>
+	<FullNameEnglish>Calcium</FullNameEnglish>
+  </Supplement>
+  <Supplement Type="Mineral" Notation="Cl">
+	<FullNameRussian>Хлор</FullNameRussian>
+	<FullNameEnglish>Chlorine</FullNameEnglish>
+  </Supplement>
+  <Supplement Type="Mineral" Notation="Cr">
+	<FullNameRussian>Хром</FullNameRussian>
+	<FullNameEnglish>Chromium</FullNameEnglish>
+  </Supplement>
+    <Supplement Type="Mineral" Notation="Cu">
+	<FullNameRussian>Медь</FullNameRussian>
+	<FullNameEnglish>Copper</FullNameEnglish>
+  </Supplement>
+  <Supplement Type="Mineral" Notation="F">
+	<FullNameRussian>Фтор</FullNameRussian>
+	<FullNameEnglish>Fluorine</FullNameEnglish>
+  </Supplement>
+  <Supplement Type="Mineral" Notation="Fe">
+	<FullNameRussian>Железо</FullNameRussian>
+	<FullNameEnglish>Iron</FullNameEnglish>
+  </Supplement>
+  <Supplement Type="Mineral" Notation="I">
+	<FullNameRussian>Йод</FullNameRussian>
+	<FullNameEnglish>Iodine</FullNameEnglish>
+  </Supplement>
+  <Supplement Type="Mineral" Notation="K">
+	<FullNameRussian>Калий</FullNameRussian>
+	<FullNameEnglish>Potassium</FullNameEnglish>
+  </Supplement>
+  <Supplement Type="Mineral" Notation="Mg">
+	<FullNameRussian>Магний</FullNameRussian>
+	<FullNameEnglish>Magnesium</FullNameEnglish>
+  </Supplement>
+  <Supplement Type="Mineral" Notation="Mn">
+	<FullNameRussian>Марганец</FullNameRussian>
+	<FullNameEnglish>Manganese</FullNameEnglish>
+  </Supplement>
+  <Supplement Type="Mineral" Notation="Na">
+	<FullNameRussian>Натрий</FullNameRussian>
+	<FullNameEnglish>Sodium</FullNameEnglish>
+  </Supplement>
+  <Supplement Type="Mineral" Notation="P">
+	<FullNameRussian>Фосфор</FullNameRussian>
+	<FullNameEnglish>Phosphorus</FullNameEnglish>
+  </Supplement>
+  <Supplement Type="Mineral" Notation="S">
+	<FullNameRussian>Сера</FullNameRussian>
+	<FullNameEnglish>Sulfur</FullNameEnglish>
+  </Supplement>
+  <Supplement Type="Mineral" Notation="Se">
+	<FullNameRussian>Селен</FullNameRussian>
+	<FullNameEnglish>Selenium</FullNameEnglish>
+  </Supplement>
+  <Supplement Type="Mineral" Notation="Si">
+	<FullNameRussian>Кремний</FullNameRussian>
+	<FullNameEnglish>Silicon</FullNameEnglish>
+  </Supplement>
+  <Supplement Type="Mineral" Notation="Zn">
+	<FullNameRussian>Цинк</FullNameRussian>
+	<FullNameEnglish>Zinc</FullNameEnglish>
+  </Supplement>
+</Supplements>

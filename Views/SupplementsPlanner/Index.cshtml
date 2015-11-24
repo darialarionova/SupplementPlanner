@@ -1,0 +1,41 @@
+﻿
+<!DOCTYPE html>
+
+<html xmlns="http://www.w3.org/1999/xhtml" ng-app="mainApp">
+<head runat="server">
+    <link rel="stylesheet" type="text/css" href="Styles/style.css">
+
+    <script src="Scripts/Libs/angular.min.js"></script>
+    <script src="Scripts/mainController.js"></script>
+</head>
+<body>
+
+    <div class="header">
+    </div>
+
+    <div ng-controller="mainController" ng-cloak ng-init="initialize()">
+        <div class="vitamins-grid">
+            <div ng-repeat="vitamin in vitamins">
+                <a ng-class=" {'grid-cell hover-bounce-in': currentSupplement.vitaminCellsStyle[$index]=='Neutral',
+                   'grid-cell-current hover-bounce-in': currentSupplement.vitaminCellsStyle[$index]=='Current',
+                   'grid-cell-red hover-bounce-in': currentSupplement.vitaminCellsStyle[$index]=='Incompatible',
+                   'grid-cell-green hover-bounce-in': currentSupplement.vitaminCellsStyle[$index]=='Compatible' }"
+                   ng-click="onSupplementClick(vitamin.Id)">
+                    <span class="grid-cell-text">{{vitamin.Notation}}</span>
+                </a>
+            </div>
+        </div>
+        <div class="minerals-grid">
+            <div ng-repeat="mineral in minerals">
+                <a ng-class="{'grid-cell hover-bounce-in': currentSupplement.mineralCellsStyle[$index]=='Neutral',
+                   'grid-cell-current hover-bounce-in': currentSupplement.mineralCellsStyle[$index]=='Current',
+                   'grid-cell-red hover-bounce-in': currentSupplement.mineralCellsStyle[$index]=='Incompatible',
+                   'grid-cell-green hover-bounce-in': currentSupplement.mineralCellsStyle[$index]=='Compatible' }"
+                   ng-click="onSupplementClick(mineral.Id)">
+                    <span class="grid-cell-text">{{mineral.Notation}}</span>
+                </a>
+            </div>
+        </div>
+    </div>
+</body>
+</html>
